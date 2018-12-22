@@ -78,77 +78,77 @@ class CharacterTable extends React.Component {
               <td>
                 <ul>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Rosey Cheeks
+                    <input type="radio" name="facial-feature" value="rosey_cheeks" checked/> Rosey Cheeks
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Small Lips
+                    <input type="radio" name="facial-feature" value="small_lips" checked/> Small Lips
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Butt Chin
+                    <input type="radio" name="facial-feature" value="butt_chin" checked/> Butt Chin
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Dotted Chin
+                    <input type="radio" name="facial-feature" value="dotted_chin" checked/> Dotted Chin
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Round Face
+                    <input type="radio" name="facial-feature" value="roud_face" checked/> Round Face
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> High Cheek Bones
+                    <input type="radio" name="facial-feature" value="high_cheek_bones" checked/> High Cheek Bones
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Facial Hair
+                    <input type="radio" name="facial-feature" value="facial_hair" checked/> Facial Hair
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Beard
+                    <input type="radio" name="facial-feature" value="beard" checked/> Beard
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Mustache
+                    <input type="radio" name="facial-feature" value="mustache" checked/> Mustache
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Goattee
+                    <input type="radio" name="facial-feature" value="goatee" checked/> Goattee
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Thin Mustache
+                    <input type="radio" name="facial-feature" value="thin_mustache" checked/> Thin Mustache
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Big nose
+                    <input type="radio" name="facial-feature" value="big_nose" checked/> Big nose
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="male" checked/> Small Nose
+                    <input type="radio" name="facial-feature" value="small_nose" checked/> Small Nose
                   </li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <input type="radio" name="hair" value="brown" checked/> Brown
+                    <input type="radio" name="hair" value="brown_hair" checked/> Brown
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="black" checked/> Black
+                    <input type="radio" name="hair" value="black_hair" checked/> Black
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="blonde" checked/> Blonde
+                    <input type="radio" name="hair" value="blonde_hair" checked/> Blonde
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="white" checked/> White
+                    <input type="radio" name="hair" value="white_hair" checked/> White
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="red" checked/> Red
+                    <input type="radio" name="hair" value="red_hair" checked/> Red
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="curly" checked/> Curly
+                    <input type="radio" name="hair" value="curly_hair" checked/> Curly
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="straight" checked/> Straight
+                    <input type="radio" name="hair" value="straight_hair" checked/> Straight
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="long" checked/> Long
+                    <input type="radio" name="hair" value="long_hair" checked/> Long
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="short" checked/> Short
+                    <input type="radio" name="hair" value="short_hair" checked/> Short
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="bald" checked/> Bald
+                    <input type="radio" name="hair" value="bald_hair" checked/> Bald
                   </li>
                   <li>
                     <input type="radio" name="hair" value="side-part" checked/> Side Part
@@ -164,7 +164,7 @@ class CharacterTable extends React.Component {
                     <input type="radio" name="skin" value="white" checked/> White
                   </li>
                   <li>
-                    <input type="radio" name="skin" value="not-white" checked/> Not White
+                    <input type="radio" name="skin" value="rosy_cheeks" checked/> Not White
                   </li>
                 </ul>
               </td>

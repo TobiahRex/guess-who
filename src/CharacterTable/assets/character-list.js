@@ -57,18 +57,17 @@ export const attributeMemo = {
   },
   eyes: {
     brown_eyes: ['CHARLES',	'MARIA',	'HERMAN',	'GEORGE',	'RICHARD',	'BILL',	'DAVID',	'PAUL',	'SAM',	'JOE',	'ERIC',	'BERNARD',	'FRANS',	'ANNE',	'ALEX',	'PHILIP',	'SUSAN',	'MAX',	'CLAIRE'],
-    blue_eyes: [],
-    thin_eye_brows: [],
-    thick_eye_brows: [],
+    blue_eyes: ['ALFRED', 'ROBERT', 'PETER', 'TOM', 'ANITA'],
+    thin_eye_brows: ['MARIA', 'SAM', 'ALFRED', 'ANNE', 'SUSAN', 'ANITA', 'CLAIRE'],
+    thick_eye_brows: ['HERMAN', 'PAUL', 'JOE', 'FRANS', 'PETER'],
   },
   skin: {
-    white: [],
-    rosy_cheeks: [],
-    not_white: [],
+    white: ['CHARLES','HERMAN','GOERGE','RICHARD','BILL','DAVID','PAUL','SAM','JOE','ERIC','ALFRED','ROBERT','BERNARD','FRANS','PETER','TOM','SUSAN','ANITA','CLAIRE'],
+    rosy_cheeks: ['BILL','ROBERT','PHILIP','SUSAN','ANITA'],
   },
   accessories: {
-    earings: [],
-    hat: [],
-    glasses: [],
+    earings: ['MARIA', 'ANNE', 'CLAIRE'],
+    hat: ['MARIA', 'GEORGE', 'ERIC', 'BERNARD', 'CLAIRE'],
+    glasses: ['PAUL', 'SAM', 'JOE', 'TOM', 'CLAIRE'],
   }
 }
