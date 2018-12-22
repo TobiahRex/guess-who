@@ -6,6 +6,7 @@ import { characterList } from './assets/character-list';
 class CharacterTable extends React.Component {
   static state = {
     allCharacters: characterList,
+    choice_feature: '',
   }
 
   renderImages = (avatarCollec) => {
@@ -17,6 +18,15 @@ class CharacterTable extends React.Component {
       )
     }
     return results;
+  }
+
+  handleFeatureChoice = (e) => {
+    e.preventDefault();
+
+    this.setState((prevState) => ({
+      ...prevState,
+      choice_feature: e.target.value,
+    }));
   }
 
   render() {
