@@ -63,7 +63,7 @@ export const attributeMemo = {
   },
   skin: {
     white: ['CHARLES','HERMAN','GOERGE','RICHARD','BILL','DAVID','PAUL','SAM','JOE','ERIC','ALFRED','ROBERT','BERNARD','FRANS','PETER','TOM','SUSAN','ANITA','CLAIRE'],
-    rosy_cheeks: ['BILL','ROBERT','PHILIP','SUSAN','ANITA'],
+    rosey_cheeks: ['BILL','ROBERT','PHILIP','SUSAN','ANITA'],
   },
   accessories: {
     earings: ['MARIA', 'ANNE', 'CLAIRE'],

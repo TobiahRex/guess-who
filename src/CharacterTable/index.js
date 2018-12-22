@@ -78,122 +78,122 @@ class CharacterTable extends React.Component {
               <td>
                 <ul>
                   <li>
-                    <input type="radio" name="facial-feature" value="rosey_cheeks" checked/> Rosey Cheeks
+                    <input type="radio" name="feature" value="rosey_cheeks" checked/> Rosey Cheeks
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="small_lips" checked/> Small Lips
+                    <input type="radio" name="feature" value="small_lips" checked/> Small Lips
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="butt_chin" checked/> Butt Chin
+                    <input type="radio" name="feature" value="butt_chin" checked/> Butt Chin
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="dotted_chin" checked/> Dotted Chin
+                    <input type="radio" name="feature" value="dotted_chin" checked/> Dotted Chin
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="roud_face" checked/> Round Face
+                    <input type="radio" name="feature" value="roud_face" checked/> Round Face
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="high_cheek_bones" checked/> High Cheek Bones
+                    <input type="radio" name="feature" value="high_cheek_bones" checked/> High Cheek Bones
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="facial_hair" checked/> Facial Hair
+                    <input type="radio" name="feature" value="facial_hair" checked/> Facial Hair
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="beard" checked/> Beard
+                    <input type="radio" name="feature" value="beard" checked/> Beard
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="mustache" checked/> Mustache
+                    <input type="radio" name="feature" value="mustache" checked/> Mustache
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="goatee" checked/> Goattee
+                    <input type="radio" name="feature" value="goatee" checked/> Goattee
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="thin_mustache" checked/> Thin Mustache
+                    <input type="radio" name="feature" value="thin_mustache" checked/> Thin Mustache
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="big_nose" checked/> Big nose
+                    <input type="radio" name="feature" value="big_nose" checked/> Big nose
                   </li>
                   <li>
-                    <input type="radio" name="facial-feature" value="small_nose" checked/> Small Nose
+                    <input type="radio" name="feature" value="small_nose" checked/> Small Nose
                   </li>
                 </ul>
               </td>
               <td>
                 <ul>
                   <li>
-                    <input type="radio" name="hair" value="brown_hair" checked/> Brown
+                    <input type="radio" name="feature" value="brown_hair" checked/> Brown
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="black_hair" checked/> Black
+                    <input type="radio" name="feature" value="black_hair" checked/> Black
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="blonde_hair" checked/> Blonde
+                    <input type="radio" name="feature" value="blonde_hair" checked/> Blonde
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="white_hair" checked/> White
+                    <input type="radio" name="feature" value="white_hair" checked/> White
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="red_hair" checked/> Red
+                    <input type="radio" name="feature" value="red_hair" checked/> Red
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="curly_hair" checked/> Curly
+                    <input type="radio" name="feature" value="curly_hair" checked/> Curly
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="straight_hair" checked/> Straight
+                    <input type="radio" name="feature" value="straight_hair" checked/> Straight
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="long_hair" checked/> Long
+                    <input type="radio" name="feature" value="long_hair" checked/> Long
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="short_hair" checked/> Short
+                    <input type="radio" name="feature" value="short_hair" checked/> Short
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="bald_hair" checked/> Bald
+                    <input type="radio" name="feature" value="bald_hair" checked/> Bald
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="side-part" checked/> Side Part
+                    <input type="radio" name="feature" value="side-part" checked/> Side Part
                   </li>
                   <li>
-                    <input type="radio" name="hair" value="middle-part" checked/> Middle Part
+                    <input type="radio" name="feature" value="middle-part" checked/> Middle Part
                   </li>
                 </ul>
               </td>
               <td className="attribute-skin">
                 <ul>
                   <li>
-                    <input type="radio" name="skin" value="white" checked/> White
+                    <input type="radio" name="feature" value="white" checked/> White
                   </li>
                   <li>
-                    <input type="radio" name="skin" value="rosy_cheeks" checked/> Not White
+                    <input type="radio" name="feature" value="rosey_cheeks" checked/> Not White
                   </li>
                 </ul>
               </td>
               <td className="attribute-eyes">
                 <ul>
                   <li>
-                    <input type="radio" name="eyes" value="brown" checked/> Brown
+                    <input type="radio" name="feature" value="brown_eyes" checked/> Brown
                   </li>
                   <li>
-                    <input type="radio" name="eyes" value="blue" checked/> Blue
+                    <input type="radio" name="feature" value="blue_eyes" checked/> Blue
                   </li>
                   <li>
-                    <input type="radio" name="eyes" value="thick-eye-brows" checked/> Thick Eye-Brows
+                    <input type="radio" name="feature" value="thick_eye_brows" checked/> Thick Eye-Brows
                   </li>
                   <li>
-                    <input type="radio" name="eyes" value="thin-eye-brows" checked/> Thin Eye-Brows
+                    <input type="radio" name="feature" value="thin_eye_brows" checked/> Thin Eye-Brows
                   </li>
                 </ul>
               </td>
               <td className="attribute-accessories">
                 <ul>
                   <li>
-                    <input type="radio" name="accessories" value="hat" checked/> Hat
+                    <input type="radio" name="feature" value="hat" checked/> Hat
                   </li>
                   <li>
-                    <input type="radio" name="accessories" value="earings" checked/> Earings
+                    <input type="radio" name="feature" value="earings" checked/> Earings
                   </li>
                   <li>
-                    <input type="radio" name="accessories" value="glasses" checked/> Glasses
+                    <input type="radio" name="feature" value="glasses" checked/> Glasses
                   </li>
                 </ul>
               </td>
