@@ -62,20 +62,20 @@ class CharacterTable extends React.Component {
           </tr>
         </tbody>
       </table>
-      <div className="options-container">
-        <div className="options-guess-container">
-          <select name="guess-type">
-            <option value="attribute">
-              <div className="guess-person">
-                <h3>Is your person: </h3>
-              </div>
-            </option>
-            <option value="person">
-              <div className="guess-attribute">
-                <h3>Does Your Person have: </h3>
-              </div>
-            </option>
-          </select>
+      <div className="guess-type-container">
+        <select name="guess-type">
+          <option value="attribute">Is your person: </option>
+          <option value="person">Does Your Person have: </option>
+        </select>
+      </div>
+      <div className="guess-options-container">
+        <div className="guess-options">
+          {/* <input type="radio" name="gender" value="male" checked> Male<br> */}
+          <input type="radio" name="facial-attribute" value="facial-attribute"/> Facial Attribute
+          <input type="radio" name="hair" value="hair"/> Hair
+          <input type="radio" name="eyes" value="eyes"/> Eyes
+          <input type="radio" name="Skin" value="skin"/> Skin
+          <input type="radio" name="Accessories" value="accessories"/> Skin
         </div>
       </div>
     </div>
