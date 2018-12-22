@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .App-logo {
@@ -37,6 +38,43 @@
 
 .App-link {
   color: #61dafb;
+}
+.guess-options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guess-options {
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+#attribute-table > tr > th {
+  width: 200px;
+}
+
+#attribute-table > tr > td.attribute-skin, td.attribute-eyes, td.attribute-accessories {
+  vertical-align: top;
+}
+
+#attribute-table > tr > td > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.guess-options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 250px;
+  height: 75px;
+  font-size: 18px;
 }
 
 @keyframes App-logo-spin {

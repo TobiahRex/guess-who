@@ -1,9 +1,5 @@
 import React from 'react';
-import personTestAvatar1 from '../assets/images/guess-who-alex.JPG';
-import personTestAvatar2 from '../assets/images/guess-who-joe.JPG';
-import personTestAvatar3 from '../assets/images/guess-who-maria.JPG';
-
-
+import avatars from './character-avatars';
 
 class CharacterTable extends React.Component {
   renderImages = (avatarCollec) => {
@@ -11,7 +7,7 @@ class CharacterTable extends React.Component {
 
     for (let i = 8; i > 0; i--) {
       results.push(
-        <img key={`${i + 1}`} src={avatarCollec[Math.floor(Math.random() * 3)]} alt={`Character ${i - 1}`} className="board-avatar" />
+        <img key={`${i + 1}`} src={avatarCollec.splice(Math.floor(Math.random() * (avatarCollec.length - 1)), 1)} alt={`Character ${i - 1}`} className="board-avatar" />
       )
     }
 
@@ -19,13 +15,6 @@ class CharacterTable extends React.Component {
   }
 
   render() {
-    let avatars = [
-      personTestAvatar1,
-      personTestAvatar2,
-      personTestAvatar3
-    ];
-
-
     return (
       <div>
         <table style={
@@ -71,11 +60,143 @@ class CharacterTable extends React.Component {
       <div className="guess-options-container">
         <div className="guess-options">
           {/* <input type="radio" name="gender" value="male" checked> Male<br> */}
-          <input type="radio" name="facial-attribute" value="facial-attribute"/> Facial Attribute
-          <input type="radio" name="hair" value="hair"/> Hair
-          <input type="radio" name="eyes" value="eyes"/> Eyes
-          <input type="radio" name="Skin" value="skin"/> Skin
-          <input type="radio" name="Accessories" value="accessories"/> Skin
+
+          <table id="attribute-table" style={{ width: '100%' }}>
+            <tr>
+              <th>Facial Attributes</th>
+              <th>Hair</th>
+              <th>Skin</th>
+              <th>Eye</th>
+              <th>Accessories</th>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Rosey Cheeks
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Small Lips
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Butt Chin
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Dotted Chin
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Round Face
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> High Cheek Bones
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Facial Hair
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Beard
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Mustache
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Goattee
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Thin Mustache
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Big nose
+                  </li>
+                  <li>
+                    <input type="radio" name="gender" value="male" checked/> Small Nose
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    <input type="radio" value="Brown" /> Brown
+                  </li>
+                  <li>
+                    <input type="radio" value="Black" /> Black
+                  </li>
+                  <li>
+                    <input type="radio" value="Blonde" /> Blonde
+                  </li>
+                  <li>
+                    <input type="radio" value="White" /> White
+                  </li>
+                  <li>
+                    <input type="radio" value="Red" /> Red
+                  </li>
+                  <li>
+                    <input type="radio" value="Curly" /> Curly
+                  </li>
+                  <li>
+                    <input type="radio" value="Straight" /> Straight
+                  </li>
+                  <li>
+                    <input type="radio" value="Long" /> Long
+                  </li>
+                  <li>
+                    <input type="radio" value="Short" /> Short
+                  </li>
+                  <li>
+                    <input type="radio" value="Bald" /> Bald
+                  </li>
+                  <li>
+                    <input type="radio" value="Side Part" /> Side Part
+                  </li>
+                  <li>
+                    <input type="radio" value="Middle Part" /> Middle Part
+                  </li>
+                </ul>
+              </td>
+              <td className="attribute-skin">
+                <ul>
+                  <li>
+                    <input type="radio" value="white" /> White
+                  </li>
+                  <li>
+                    <input type="radio" value="not-white" /> Not-White
+                  </li>
+                </ul>
+              </td>
+              <td className="attribute-eyes">
+                <ul>
+                  <li>
+                    <input type="radio" value="Brown" /> Brown
+                  </li>
+                  <li>
+                    <input type="radio" value="Blue" /> Blue
+                  </li>
+                  <li>
+                    <input type="radio" value="Thick Eye Brows" /> Thick Eye Brows
+                  </li>
+                  <li>
+                    <input type="radio" value="Thin Eye Brows" /> Thin Eye Brows
+                  </li>
+                </ul>
+              </td>
+              <td className="attribute-accessories">
+                <ul>
+                  <li>
+                    <input type="radio" value="hat" /> Hat
+                  </li>
+                  <li>
+                    <input type="radio" value="earings" /> Earings
+                  </li>
+                  <li>
+                    <input type="radio" value="glasses" /> Glasses
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <button type="button" onClick={() => console.log('Submit')}> Submit</button>
         </div>
       </div>
     </div>
