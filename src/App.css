@@ -8,6 +8,22 @@
   max-width: 20%;
 }
 
+.avatar-boundry {
+  height: 160px;
+  width: 100px;
+}
+
+.board-avatar {
+  max-width: 100px;
+}
+
+.board-avatar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60%;
+}
+
 .App-header {
   /* background-color: #282c34; */
   /* min-height: 100vh; */
