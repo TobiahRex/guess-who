@@ -27,40 +27,58 @@ class CharacterTable extends React.Component {
 
 
     return (
-      <table style={
-        {
-          width: '100%'
-        }
-      }>
-      {/* <tr>
-        <th>Firstname</th>
-      </tr> */}
-      <tbody>
-        <tr>
-          <td className="avatar-boundry" align="middle">
-            <div className="board-avatar-container">
-              {
-                this.renderImages(avatars)
-              }
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="avatar-boundry" align="middle">
-            <div className="board-avatar-container">
-              {this.renderImages(avatars)}
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="avatar-boundry" align="middle">
-            <div className="board-avatar-container">
-              {this.renderImages(avatars)}
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      <div>
+        <table style={
+          {
+            width: '100%'
+          }
+        }>
+        {/* <tr>
+          <th>Firstname</th>
+        </tr> */}
+        <tbody>
+          <tr>
+            <td className="avatar-boundry" align="middle">
+              <div className="board-avatar-container">
+                {
+                  this.renderImages(avatars)
+                }
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td className="avatar-boundry" align="middle">
+              <div className="board-avatar-container">
+                {this.renderImages(avatars)}
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td className="avatar-boundry" align="middle">
+              <div className="board-avatar-container">
+                {this.renderImages(avatars)}
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div className="options-container">
+        <div className="options-guess-container">
+          <select name="guess-type">
+            <option value="attribute">
+              <div className="guess-person">
+                <h3>Is your person: </h3>
+              </div>
+            </option>
+            <option value="person">
+              <div className="guess-attribute">
+                <h3>Does Your Person have: </h3>
+              </div>
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
   )
 }
 }
