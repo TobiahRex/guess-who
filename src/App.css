@@ -50,15 +50,15 @@
   justify-content: space-between;
   align-items: center;
 }
-#attribute-table > tr > th {
+#attribute-table > tbody > tr > th {
   width: 200px;
 }
 
-#attribute-table > tr > td.attribute-skin, td.attribute-eyes, td.attribute-accessories {
+#attribute-table > tbody > tr > td.attribute-skin, td.attribute-eyes, td.attribute-accessories {
   vertical-align: top;
 }
 
-#attribute-table > tr > td > ul {
+#attribute-table > tbody > tr > td > ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
